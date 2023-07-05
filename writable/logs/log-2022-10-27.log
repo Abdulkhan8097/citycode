@@ -1,0 +1,10 @@
+CRITICAL - 2022-10-27 08:54:45 --> Unable to connect to the database.
+#0 /var/www/html/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/app/Controllers/NotificationController.php(247): CodeIgniter\Model->find()
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\NotificationController->send_Notification()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

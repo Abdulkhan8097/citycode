@@ -1,0 +1,6 @@
+CRITICAL - 2022-07-25 15:18:47 --> Class 'App\Models\NotificationModel' not found
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\NotificationController->send_Notification()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

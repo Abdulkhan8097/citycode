@@ -1,0 +1,163 @@
+CRITICAL - 2023-02-13 00:02:28 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 01:36:49 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 09:28:43 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 12:43:40 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 12:50:25 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 12:50:58 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 14:43:09 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 15:36:53 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 16:02:33 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 17:11:55 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 17:28:02 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 18:10:02 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 18:10:02 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 18:13:56 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 20:26:11 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 20:26:43 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 20:59:06 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-13 23:48:01 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 23:48:01 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 23:57:43 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-13 23:58:27 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

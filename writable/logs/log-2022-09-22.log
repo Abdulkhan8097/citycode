@@ -1,0 +1,199 @@
+CRITICAL - 2022-09-22 01:13:51 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiAdvertise.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 169, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiAdvertise->bannerCount()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAdvertise))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 12:55:49 --> Call to undefined method App\Models\MenuModel::count
+#0 /var/www/html/app/Controllers/Admin.php(281): CodeIgniter\Model->__call('count', Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 12:58:08 --> Call to undefined method App\Models\MenuModel::num_rows
+#0 /var/www/html/app/Controllers/Admin.php(281): CodeIgniter\Model->__call('num_rows', Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 12:59:15 --> Call to undefined method App\Models\MenuModel::countResultAll
+#0 /var/www/html/app/Controllers/Admin.php(281): CodeIgniter\Model->__call('countResultAll', Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:04:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /var/www/html/app/Controllers/Admin.php(281): App\Models\MenuModel->menuCountC('112')
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:05:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /var/www/html/app/Controllers/Admin.php(281): App\Models\MenuModel->menuCountC('112')
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:06:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+#0 /var/www/html/app/Controllers/Admin.php(281): App\Models\MenuModel->menuCountC('112')
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:09:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /var/www/html/app/Controllers/Admin.php(281): App\Models\MenuModel->menuCountC('112')
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:15:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 /var/www/html/app/Controllers/Admin.php(281): App\Models\MenuModel->menuCountC('112')
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:15:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 /var/www/html/app/Controllers/Admin.php(281): App\Models\MenuModel->menuCountC('112')
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:15:30 --> Call to a member function num_rows() on array
+#0 /var/www/html/app/Controllers/Admin.php(281): App\Models\MenuModel->menuCountC('112')
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:15:32 --> Call to a member function num_rows() on array
+#0 /var/www/html/app/Controllers/Admin.php(281): App\Models\MenuModel->menuCountC('112')
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:15:35 --> Call to a member function num_rows() on array
+#0 /var/www/html/app/Controllers/Admin.php(281): App\Models\MenuModel->menuCountC('112')
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:15:36 --> Call to a member function num_rows() on array
+#0 /var/www/html/app/Controllers/Admin.php(281): App\Models\MenuModel->menuCountC('112')
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:15:38 --> Call to a member function num_rows() on array
+#0 /var/www/html/app/Controllers/Admin.php(281): App\Models\MenuModel->menuCountC('112')
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:15:54 --> Call to a member function count() on array
+#0 /var/www/html/app/Controllers/Admin.php(281): App\Models\MenuModel->menuCountC('112')
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:15:57 --> Call to a member function count() on array
+#0 /var/www/html/app/Controllers/Admin.php(281): App\Models\MenuModel->menuCountC('112')
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:16:09 --> Call to a member function countAll() on array
+#0 /var/www/html/app/Controllers/Admin.php(281): App\Models\MenuModel->menuCountC('112')
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:16:11 --> Call to a member function countAll() on array
+#0 /var/www/html/app/Controllers/Admin.php(281): App\Models\MenuModel->menuCountC('112')
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:17:02 --> Call to undefined method App\Models\MenuModel::menuCountC
+#0 /var/www/html/app/Controllers/Admin.php(281): CodeIgniter\Model->__call('menuCountC', Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:17:05 --> Call to undefined method App\Models\MenuModel::menuCountC
+#0 /var/www/html/app/Controllers/Admin.php(281): CodeIgniter\Model->__call('menuCountC', Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:20:45 --> Call to undefined method App\Models\MenuModel::count
+#0 /var/www/html/app/Controllers/Admin.php(281): CodeIgniter\Model->__call('count', Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:20:47 --> Call to undefined method App\Models\MenuModel::count
+#0 /var/www/html/app/Controllers/Admin.php(281): CodeIgniter\Model->__call('count', Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:20:50 --> Call to undefined method App\Models\MenuModel::count
+#0 /var/www/html/app/Controllers/Admin.php(281): CodeIgniter\Model->__call('count', Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:20:52 --> Call to undefined method App\Models\MenuModel::count
+#0 /var/www/html/app/Controllers/Admin.php(281): CodeIgniter\Model->__call('count', Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:20:53 --> Call to undefined method App\Models\MenuModel::count
+#0 /var/www/html/app/Controllers/Admin.php(281): CodeIgniter\Model->__call('count', Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 13:20:56 --> Call to undefined method App\Models\MenuModel::count
+#0 /var/www/html/app/Controllers/Admin.php(281): CodeIgniter\Model->__call('count', Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 16:41:29 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiAdvertise.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 169, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiAdvertise->bannerCount()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAdvertise))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 20:09:23 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

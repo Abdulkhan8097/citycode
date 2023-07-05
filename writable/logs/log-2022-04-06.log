@@ -1,0 +1,68 @@
+CRITICAL - 2022-04-06 00:22:01 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-06 14:04:40 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-06 16:29:27 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiUsers/ChatDe...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiUsers/ChatDe...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-06 16:50:05 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiUsers/ChatDe...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiUsers/ChatDe...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-06 16:51:35 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-06 18:20:41 --> Call to undefined method App\Models\ChatStatusModel::inserChatstatus
+#0 /var/www/html/app/Controllers/ApiUsers.php(1571): CodeIgniter\Model->__call('inserChatstatus', Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->chat()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-06 18:21:16 --> Call to undefined method App\Models\ChatStatusModel::inserChatstatus
+#0 /var/www/html/app/Controllers/ApiUsers.php(1571): CodeIgniter\Model->__call('inserChatstatus', Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->chat()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-06 18:21:45 --> Call to undefined method App\Models\ChatStatusModel::inserChatstatus
+#0 /var/www/html/app/Controllers/ApiUsers.php(1571): CodeIgniter\Model->__call('inserChatstatus', Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->chat()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-06 18:28:28 --> syntax error, unexpected end of file, expecting ';'
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiUsers/ChatDe...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiUsers/ChatDe...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-06 18:28:33 --> Call to undefined method App\Models\ChatStatusModel::inserChatstatus
+#0 /var/www/html/app/Controllers/ApiUsers.php(1571): CodeIgniter\Model->__call('inserChatstatus', Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->chat()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-06 18:42:01 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-06 18:50:20 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiUsers/ChatDe...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiUsers/ChatDe...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,275 @@
+CRITICAL - 2022-10-20 02:48:06 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 03:50:24 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 11:03:17 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 13:20:03 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-20 13:20:45 --> Class 'App\Controllers\OnlineShoppingModel' not found
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->index()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-20 13:21:11 --> Class 'App\Controllers\OnlineShoppingModel' not found
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->index()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-20 13:22:25 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/OnlineShopping/orderlist.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 85, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/OnlineSho...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/OnlineSho...', Array)
+#4 /var/www/html/app/Controllers/OnlineShopping.php(82): App\Libraries\Template->render('admintemplate', 'contents', 'admin/OnlineSho...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->index()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-20 13:30:09 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/OnlineShopping/orderlist.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 85, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/OnlineSho...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/OnlineSho...', Array)
+#4 /var/www/html/app/Controllers/OnlineShopping.php(82): App\Libraries\Template->render('admintemplate', 'contents', 'admin/OnlineSho...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->index()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-20 13:30:13 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/OnlineShopping/orderlist.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 85, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/OnlineSho...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/OnlineSho...', Array)
+#4 /var/www/html/app/Controllers/OnlineShopping.php(82): App\Libraries\Template->render('admintemplate', 'contents', 'admin/OnlineSho...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->index()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-20 13:30:18 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/OnlineShopping/orderlist.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 85, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/OnlineSho...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/OnlineSho...', Array)
+#4 /var/www/html/app/Controllers/OnlineShopping.php(82): App\Libraries\Template->render('admintemplate', 'contents', 'admin/OnlineSho...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->index()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-20 13:31:08 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/OnlineShopping/orderlist.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 85, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/OnlineSho...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/OnlineSho...', Array)
+#4 /var/www/html/app/Controllers/OnlineShopping.php(82): App\Libraries\Template->render('admintemplate', 'contents', 'admin/OnlineSho...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->index()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-20 16:01:55 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 17:10:30 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 18:52:54 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 19:01:01 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 19:02:00 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 20:09:35 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-20 20:31:25 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 20:31:50 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 206, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 20:40:58 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 206, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 20:42:21 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 206, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 20:42:26 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 206, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 20:43:15 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 206, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 20:43:21 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 206, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 20:44:23 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 206, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 20:45:35 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 206, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 20:45:57 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 206, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 20:46:03 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 206, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 20:48:44 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 206, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 20:58:13 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 214, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 21:04:22 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 214, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 21:05:54 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 212, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 21:15:27 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 213, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 21:21:46 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 213, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 21:21:53 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 21:23:20 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 213, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 21:23:26 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 213, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 21:25:50 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ProductController.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 213, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-20 21:33:25 --> syntax error, unexpected ';'
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-20 21:34:45 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 21:35:32 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 21:35:49 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 21:48:44 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-20 21:49:45 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

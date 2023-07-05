@@ -1,0 +1,476 @@
+CRITICAL - 2023-02-27 00:24:56 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-27 00:25:51 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-27 00:25:58 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-27 00:32:40 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-27 00:33:23 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-27 00:33:32 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-27 00:34:06 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-27 00:52:48 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-27 01:14:24 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-27 01:43:35 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 05:17:48 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 06:19:12 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-27 11:13:58 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-27 12:46:33 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 12:48:14 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 12:57:57 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 13:03:36 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 13:26:52 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 13:27:03 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 13:27:29 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 13:27:52 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 13:38:09 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 13:38:09 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:20:26 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(3240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 3240, Array)
+#1 /var/www/html/app/Controllers/ApiUsers.php(3254): App\Controllers\haversineDistance(37.7749, -122.4194, '', '')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:20:29 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(3240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 3240, Array)
+#1 /var/www/html/app/Controllers/ApiUsers.php(3254): App\Controllers\haversineDistance(37.7749, -122.4194, '', '')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:21:04 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(3240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 3240, Array)
+#1 /var/www/html/app/Controllers/ApiUsers.php(3254): App\Controllers\haversineDistance(37.7749, -122.4194, '', '')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:21:43 --> Call to undefined function App\Controllers\haversineDistance()
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-27 16:21:45 --> Call to undefined function App\Controllers\haversineDistance()
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-27 16:22:42 --> Call to undefined function App\Controllers\haversineDistance()
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-27 16:24:51 --> Call to undefined function App\Controllers\haversineDistance()
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-27 16:24:53 --> Call to undefined function App\Controllers\haversineDistance()
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-27 16:29:27 --> Call to undefined function App\Controllers\haversineDistance()
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-27 16:29:30 --> Call to undefined function App\Controllers\haversineDistance()
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-27 16:33:50 --> Call to undefined function App\Controllers\haversineDistance()
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-27 16:33:53 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(3248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 3248, Array)
+#1 /var/www/html/app/Controllers/ApiUsers.php(3232): App\Controllers\ApiUsers->haversineDistance(37.7749, -122.4194, '', '')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:33:56 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(3248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 3248, Array)
+#1 /var/www/html/app/Controllers/ApiUsers.php(3232): App\Controllers\ApiUsers->haversineDistance(37.7749, -122.4194, '', '')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:34:45 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(3248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 3248, Array)
+#1 /var/www/html/app/Controllers/ApiUsers.php(3232): App\Controllers\ApiUsers->haversineDistance(37.7749, -122.4194, '', '')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:34:46 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(3248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 3248, Array)
+#1 /var/www/html/app/Controllers/ApiUsers.php(3232): App\Controllers\ApiUsers->haversineDistance(37.7749, -122.4194, '', '')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:36:22 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(3248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 3248, Array)
+#1 /var/www/html/app/Controllers/ApiUsers.php(3232): App\Controllers\ApiUsers->haversineDistance(37.7749, -122.4194, '', '')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:38:42 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(3249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 3249, Array)
+#1 /var/www/html/app/Controllers/ApiUsers.php(3232): App\Controllers\ApiUsers->haversineDistance(37.7749, -122.4194, '', '')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:38:44 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(3249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 3249, Array)
+#1 /var/www/html/app/Controllers/ApiUsers.php(3232): App\Controllers\ApiUsers->haversineDistance(37.7749, -122.4194, '', '')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:38:45 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(3249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 3249, Array)
+#1 /var/www/html/app/Controllers/ApiUsers.php(3232): App\Controllers\ApiUsers->haversineDistance(37.7749, -122.4194, '', '')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:38:47 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(3249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 3249, Array)
+#1 /var/www/html/app/Controllers/ApiUsers.php(3232): App\Controllers\ApiUsers->haversineDistance(37.7749, -122.4194, '', '')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:39:16 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(3249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 3249, Array)
+#1 /var/www/html/app/Controllers/ApiUsers.php(3232): App\Controllers\ApiUsers->haversineDistance(37.7749, -122.4194, '', '')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:39:17 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(3249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 3249, Array)
+#1 /var/www/html/app/Controllers/ApiUsers.php(3232): App\Controllers\ApiUsers->haversineDistance(37.7749, -122.4194, '', '')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:39:42 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:39:58 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:40:13 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 16:48:05 --> syntax error, unexpected end of file, expecting ']'
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-27 16:48:17 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 17:07:12 --> syntax error, unexpected '"'
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Bran...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Bran...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(44): spl_autoload_call('App\\Models\\Bran...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-27 17:12:02 --> syntax error, unexpected '"' "' (T_CONSTANT_ENCAPSED_STRING)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Bran...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Bran...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(44): spl_autoload_call('App\\Models\\Bran...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-27 17:12:03 --> syntax error, unexpected '"' "' (T_CONSTANT_ENCAPSED_STRING)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Bran...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Bran...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(44): spl_autoload_call('App\\Models\\Bran...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-27 17:12:05 --> syntax error, unexpected '"' "' (T_CONSTANT_ENCAPSED_STRING)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Bran...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Bran...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(44): spl_autoload_call('App\\Models\\Bran...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-27 17:12:37 --> syntax error, unexpected '"' "' (T_CONSTANT_ENCAPSED_STRING)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Bran...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Bran...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(44): spl_autoload_call('App\\Models\\Bran...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-27 17:59:48 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-27 18:00:27 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-27 18:19:42 --> Call to a member function save() on null
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-27 18:21:39 --> Call to a member function save() on null
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-27 18:22:31 --> Call to a member function save() on null
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->latlong()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-27 18:30:15 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 18:32:09 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 18:32:33 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 19:12:29 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 19:29:42 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 22:27:14 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 22:31:15 --> array_merge(): Argument #2 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 105, Array)
+#1 /var/www/html/app/Controllers/ApiFavorate.php(105): array_merge(Array, NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiFavorate->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiFavorate))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-27 23:05:49 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-27 23:17:57 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-27 23:28:10 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-27 23:31:06 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-27 23:35:24 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

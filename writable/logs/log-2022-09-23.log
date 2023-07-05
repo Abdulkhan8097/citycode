@@ -1,0 +1,60 @@
+CRITICAL - 2022-09-23 01:25:10 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-23 11:16:22 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiAdvertise.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 169, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiAdvertise->bannerCount()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAdvertise))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-23 11:16:26 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiAdvertise.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 169, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiAdvertise->bannerCount()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAdvertise))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-23 11:17:06 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-23 11:21:38 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiAdvertise.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 169, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiAdvertise->bannerCount()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAdvertise))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-23 13:11:01 --> Cannot use object of type stdClass as array
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/bannerlis...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/bannerlis...', Array)
+#3 /var/www/html/app/Controllers/AboutCompany.php(166): App\Libraries\Template->render('admintemplate', 'contents', 'admin/bannerlis...', Array)
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\AboutCompany->banner_list()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutCompany))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-23 13:11:50 --> Call to undefined function siteurl()
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/bannerlis...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/bannerlis...', Array)
+#3 /var/www/html/app/Controllers/AboutCompany.php(166): App\Libraries\Template->render('admintemplate', 'contents', 'admin/bannerlis...', Array)
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\AboutCompany->banner_list()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutCompany))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-23 13:11:53 --> Call to undefined function siteurl()
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/bannerlis...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/bannerlis...', Array)
+#3 /var/www/html/app/Controllers/AboutCompany.php(166): App\Libraries\Template->render('admintemplate', 'contents', 'admin/bannerlis...', Array)
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\AboutCompany->banner_list()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutCompany))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-23 16:52:18 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

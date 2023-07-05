@@ -1,0 +1,27 @@
+CRITICAL - 2023-01-06 13:27:11 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-06 13:39:32 --> syntax error, unexpected 'elseif' (T_ELSEIF)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-06 13:39:35 --> syntax error, unexpected 'elseif' (T_ELSEIF)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-06 16:05:23 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-06 17:10:28 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

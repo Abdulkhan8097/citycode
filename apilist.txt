@@ -1,0 +1,355 @@
+Base Url:  http://165.22.219.135/codeapp/public/index.php
+
+
+//User login
+http://165.22.219.135/codeapp/public/index.php/apilogin
+Method: post 
+Input:
+mobile: 1234556
+password: 1234
+
+Output:
+{
+    "status": 201,
+    "error": null,
+    "messages": {
+        "success": "Login successfully"
+    },
+    "user_detail": {
+        "id": "120",
+        "email": "shiva@gmail.com",
+        "name": "Shiva",
+        "city_code": "M2013",
+        "isUserLoggedIn": true
+    }
+}
+----------------------------------------------
+//register user
+
+http://165.22.219.135/codeapp/public/index.php/ApiUsers
+Method: post
+Input
+
+mobile: 
+email:
+name:
+familyname:
+gender: 
+date_of_birth:
+nationality:
+governorate:
+state:
+language:
+//profileimage:   // profile image
+
+-----------------------------------------------------------------------
+
+// get user details
+http://165.22.219.135/codeapp/public/index.php/ApiUsers/106
+Method: get
+Output
+
+{
+    "status": 201,
+    "error": null,
+    "messages": {
+        "success": "User detail"
+    },
+    "user_detail": {
+        "id": "106",
+        "name": "noor",
+        "username": "afshan",
+        "interest": "",
+        "family_name": "",
+        "password": "$2y$10$ZpYfudWw8JbkHdhxDNsip.pMoetj3pxU9CmjMserySWcBAvGcOhMO",
+        "type": "customer",
+        "city_code": "N4800",
+        "vip_code": "",
+        "gender": "female",
+        "date_of_birth": "07-31-2021",
+        "nationality": "indian",
+        "governorate": "hh",
+        "state": "state",
+        "language": "english",
+        "mobile": "9876543216",
+        "email": "afs@gmail.com",
+        "profile": "banner.jpg",
+        "commission": "0",
+        "start_date": "",
+        "end_date": "",
+        "status": "1",
+        "created_date": "2021-07-31 14:34:11",
+        "updated_date": "0000-00-00 00:00:00"
+    }
+}
+------------------------
+//update user profile
+http://165.22.219.135/codeapp/public/index.php/apiupdateprofile
+
+Method: post
+Input
+userid:
+mobile: 
+email:
+name:
+familyname:
+gender: 
+date_of_birth:
+nationality:
+governorate:
+state:
+language:
+//profileimage:   // profile image
+
+Output:
+
+{
+    "status": 201,
+    "error": null,
+    "messages": {
+        "success": "Profile updated successfully"
+    },
+    "userdetail": {
+        "email": "subedar.genie@gmail.com",
+        "mobile": "9819941588",
+        "name": "Subedar",
+        "family_name": "Sdd",
+        "gender": "male",
+        "date_of_birth": "25-1-22",
+        "nationality": "indian",
+        "governorate": "34243",
+        "state": "2",
+        "language": "english",
+        "id": "175"
+    }
+}
+
+----------------------------------
+// get OTP 
+http://165.22.219.135/codeapp/public/index.php/apigetotp?mobileno=9819941589
+method: get
+input: mobileno
+
+Output:
+
+{
+    "status": 201,
+    "error": null,
+    "messages": {
+        "success": "Otp generated successfully"
+    },
+    "optno": "3842"
+}
+
+----------------------------
+update profile image
+
+http://165.22.219.135/codeapp/public/index.php/apiupdateprofileimage
+
+Method :POST
+INPUT
+userid: 
+profileimage:    // image field name
+
+output
+
+{
+    "status": 201,
+    "error": null,
+    "messages": {
+        "success": "Profile updated successfully"
+    },
+    "userdetail": {
+        "profile": "1971967924_110.jpg",
+        "id": "183"
+    }
+}
+
+----------------------------------------
+// get all offers
+http://165.22.219.135/codeapp/public/index.php/ApiOffers
+Method: get
+
+//get VIP offer
+http://165.22.219.135/codeapp/public/index.php/ApiOffers?coupon_type=vip
+//Only city code
+coupon_type=city
+coupon_type=friday
+// more than 1 type 
+http://165.22.219.135/codeapp/public/index.php/ApiOffers?coupon_type=city,vip
+
+other filters
+ApiOffers?coupon_type=city&category=1&stateid=1001&cityid=1,2,3&discounttype=1&sortby=3
+
+
+----------------------------
+//get single offer details
+http://165.22.219.135/codeapp/public/index.php/ApiOffers/27
+
+-----------------------------------
+Company details
+list company
+http://165.22.219.135/codeapp/public/index.php/ApiCompany
+Method: get
+--------------------------------------------------------
+get single company details
+http://165.22.219.135/codeapp/public/index.php/ApiCompany/97
+
+Method: get
+-----------------------------
+ company view 
+http://165.22.219.135/codeapp/public/index.php/viewcount?company_id=97
+
+Method: get
+----------------------------
+// online shop
+http://165.22.219.135/codeapp/public/index.php/onlineshop
+
+-------------------------------------------------------
+get banner api
+
+http://165.22.219.135/codeapp/public/index.php/ApiAdvertise
+method: get
+
+-----------------------
+get customer by vip code
+http://165.22.219.135/codeapp/public/index.php/showvip?vip_code=A2222 
+Method: get
+
+---------------------------
+add favourate 
+http://165.22.219.135/codeapp/public/index.php/ApiFavorate
+method: post
+
+variable:
+customer_id:
+company_id:
+-----------------------------
+remove favourate 
+http://165.22.219.135/codeapp/public/index.php/removefavourate
+method: post
+
+variable:
+customer_id:
+company_id
+-----------------------------
+Myfavourate List
+
+http://165.22.219.135/codeapp/public/index.php/ApiFavorate?customer_id=33
+
+Method: get
+
+------------------------------------
+//get filters
+
+http://165.22.219.135/codeapp/public/index.php/ApiFilters
+
+Method: get
+
+
+--------------------------------------------------------------
+
+//get cities
+http://165.22.219.135/codeapp/public/index.php/getcities?state_id=1001
+
+Method: get
+----------------------------------------------------------------------------------------------
+
+//List company products
+
+http://165.22.219.135/codeapp/public/index.php/companyproduct?company_id=104
+
+Method: get
+
+-------------------------------------------------------
+
+//Enquiry ApiContactus
+
+http://165.22.219.135/codeapp/public/index.php/ApiContactus
+
+Method: post
+
+INPUT
+
+userid:
+email:
+mobile:
+details
+------------------------------------------------------
+
+//company ApiCompanyenquiry
+
+http://165.22.219.135/codeapp/public/index.php/ApiCompanyenquiry
+
+Method: post
+INPUT
+
+userid:
+companyid:
+details:
+---------------
+
+get products  list
+http://165.22.219.135/codeapp/public/index.php/ApiProducts
+Mrhtod : get
+
+company_id=  // for specific company product
+show_inredeem=       // remove this variable for all product, 1 for only redeem product, 0 for product without redeem
+
+---------------------------------------------------------------------
+http://165.22.219.135/codeapp/public/index.php/companyproduct?company_id=127&show_inredeem=0
+method: get
+
+if only company product then pass
+company_id=
+show_inredeem=       // remove this variable for all product, 1 for only redeem product, 0 for product without redeem
+----------------------------------------------------------------
+//get product details
+http://165.22.219.135/codeapp/public/index.php/ApiProducts/1
+
+method:get
+-------------------------------------------------------------------
+// branch login
+http://165.22.219.135/codeapp/public/index.php/branchlogin
+Method: post
+INPUT: 
+
+username:
+password:
+
+----------------------------------------------------------------------
+get city code detail
+http://165.22.219.135/codeapp/public/index.php/getcodedetail?city_code=N4800
+method: get
+INPUT
+city_code:
+
+---------------------------------
+// user point assign for product
+
+http://165.22.219.135/codeapp/public/index.php/addpoints
+
+method: POST
+userid:
+companyid:
+branchid:
+ordernumber:
+totalamount:
+paidamount:
+discount:
+discription:
+
+
+--------------------------
+//get company offer according to branch and company
+
+http://165.22.219.135/codeapp/public/index.php/ApiCompany/companyoffer
+company_id
+branch_id
+user_code
+-------------------------------------
+//show only  specific company offers
+
+http://165.22.219.135/codeapp/public/index.php/ApiProducts/redeem_product
+parameter = company_id
+

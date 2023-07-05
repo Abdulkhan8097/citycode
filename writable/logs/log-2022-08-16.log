@@ -1,0 +1,344 @@
+CRITICAL - 2022-08-16 11:24:37 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-16 12:17:42 --> Call to a member function find() on null
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\RedeemController->edit_redeem_product()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RedeemController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 12:18:57 --> Call to a member function find() on null
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\RedeemController->edit_redeem_product()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RedeemController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:02:57 --> Class 'App\Models\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:02:57 --> Class 'App\Models\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:02:57 --> Class 'App\Models\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:02:57 --> Class 'App\Models\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:02:57 --> Class 'App\Models\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:02:57 --> Class 'App\Models\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:02:57 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 13:03:25 --> Call to a member function find() on null
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\RedeemController->edit_redeem_product()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RedeemController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:03:48 --> Class 'App\Models\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:03:48 --> Class 'App\Models\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:03:50 --> Call to a member function find() on null
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\RedeemController->edit_redeem_product()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RedeemController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:05:29 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 13:05:29 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 13:05:29 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 13:05:29 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 13:07:21 --> Class 'App\Models\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:07:21 --> Class 'App\Models\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:07:21 --> Class 'App\Models\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:07:21 --> Class 'App\Models\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:07:21 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 13:07:21 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 13:07:21 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 13:07:21 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 13:07:21 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 13:10:51 --> Class 'App\Models\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:10:51 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 13:10:51 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 13:10:51 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 13:10:51 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 13:10:51 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 13:10:51 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 13:18:49 --> Class 'App\Models\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:20:46 --> Class 'App\Models\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:20:46 --> Class 'App\Models\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:20:46 --> Class 'App\Models\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 13:20:47 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 13:22:41 --> syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/ApiUsers.php(29): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiUsers->__construct()
+#5 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 15:03:57 --> Class 'App\Controllers\orgModel' not found
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\VipController->saveORG()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VipController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 15:05:59 --> Class 'App\Controllers\orgModel' not found
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\VipController->saveORG()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VipController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 15:08:16 --> syntax error, unexpected ''org_status'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 16:20:34 --> Call to undefined function App\Controllers\pritn_r()
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\RedeemController->update()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RedeemController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 17:31:05 --> Use of undefined constant p_company_id - assumed 'p_company_id' (this will throw an Error in a future version of PHP)
+#0 /var/www/html/app/Controllers/RedeemController.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/var/www/html/a...', 222, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\RedeemController->update()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RedeemController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

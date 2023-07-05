@@ -1,0 +1,262 @@
+<?php
+
+namespace App\Controllers;
+use App\Models\CompanyModel;
+use App\Models\CodeModel;
+
+class CompanyController extends BaseController {
+	
+    protected $session;
+    protected  $isAdminLoggedIn;
+        
+    public function __construct()
+    {
+        $this->session = session();
+        $this->isAdminLoggedIn = $this->session->get('isAdminLoggedIn');
+      }
+
+
+  function index() {
+
+        if(!$this->isAdminLoggedIn)
+        {  
+          return redirect()->to(site_url('admin'));
+        }
+
+        $this->template->render('admintemplate', 'contents' , 'admin/companylist');
+     }
+
+
+
+ 
+  
+
+
+function add_new()
+	{
+		$this->template->render('admintemplate', 'contents' , 'admin/company_form');
+	}
+
+
+
+
+    public function add_company()
+    {
+        if(!$this->isAdminLoggedIn)
+        {  
+           return redirect()->to(site_url('admin'));
+        }
+
+ $codes = new CodeModel;
+ 
+	$location =	$this->request->getVar('c_location');
+if(count($location) > 0)
+{
+	for($i=0;$i<=count($location);$i++)
+	{
+		$new_cityname = $location[$i];
+
+		$data['c_location'] = $new_cityname;
+		$code_id = $codes->insert($data);
+	}
+}
+
+ 
+	 
+
+//echo"<pre>";print_r($data);die();	  
+
+
+
+//$code_id = $codes->insert($tmp_data);
+ 
+
+     if (($details->errors) || ($codes->errors)) {
+        return $this->fail($details->errors());
+     }
+     else{
+        $this->session->setFlashdata('message', 'Company Details Added Successfully!');
+        return redirect()->to(site_url('AddCompany'));
+     }
+ }
+
+
+
+public function edit_product()
+    {
+        if(!$this->isAdminLoggedIn)
+        {  
+               return redirect()->to(site_url('admin'));
+        }
+
+        $id = $this->request->getGet("id");
+
+	$stateModel = new StateModel();
+	$data['statedata'] = $stateModel->orderBy('state_name', 'ASC')->findAll();
+
+        $cityModel = new CityModel();
+	$data['cities'] = $cityModel->where('state_id', $this->request->getVar('state_id'))->findAll();
+
+        $productModel = new ProductModel();
+        $data['product'] = $productModel->getProductID($id); 
+
+        if(!$data['product'])
+        {
+            $this->session->setFlashdata('errmessage', 'Product Id Does not exist!');
+            return redirect()->to(site_url('products'));
+        }
+        $this->template->render('admintemplate', 'contents' , 'admin/edit_product_form', $data);
+    }
+
+
+public function update()
+    {
+        $session = session();
+        $isAdminLoggedIn = $session->get('isAdminLoggedIn');
+
+        if(!$isAdminLoggedIn)
+        {  
+            return redirect()->to(site_url('admin'));
+        }
+            
+        $product_id = $this->request->getPost('product_id');
+        if(!$product_id)
+        {
+            $this->session->setFlashdata('errmessage', 'Product does not exist!');
+            return redirect()->to(site_url('adminlist'));
+        }
+
+        $company_name =$this->request->getPost('company_name');                
+        $governorate =$this->request->getPost('governorate');
+        $state =$this->request->getPost('state'); 
+        $village = $this->request->getPost('village');
+        $product_name =$this->request->getPost('product_name');
+        $description =$this->request->getPost('description'); 
+        $quantity =$this->request->getPost('quantity');
+        $price =$this->request->getPost('price');
+        $discount_price =$this->request->getPost('discount_price');
+        $status = $this->request->getPost('status');
+        $picture = $this->request->getPost('picture');
+        $updated_date = $this->request->getPost('updated_date');
+
+        $productModel = new ProductModel();
+
+ $file = $this->request->getFile("picture");
+ $file_type = $file->getClientMimeType();
+ $valid_file_types = array("image/png", "image/jpeg", "image/jpg");
+
+ if (in_array($file_type, $valid_file_types)) {
+
+ $picture = $file->getName();
+
+if ($file->move("images", $picture)) {
+
+       $arrSaveData = array(
+
+            'company_name'=>$company_name,
+            'governorate'=>$governorate,
+            'state'=>$state,
+            'village'=>$village,
+            'product_name'=>$product_name,
+            'description'=>$description,
+            'quantity'=>$quantity,
+            'price'=>$price,
+            'discount_price'=>$discount_price,
+            'status'=>$status,
+            'picture' => $picture,
+            'updated_date' => date('Y-m-d H:i:s'),
+          );
+      }
+}
+else { 
+        $arrSaveData = array(
+            'company_name'=>$company_name,
+            'governorate'=>$governorate,
+            'state'=>$state,
+            'village'=>$village,
+            'product_name'=>$product_name,
+            'description'=>$description,
+            'quantity'=>$quantity,
+            'price'=>$price,
+            'discount_price'=>$discount_price,
+            'status'=>$status,
+             'updated_date' => date('Y-m-d H:i:s'),
+            );
+}
+
+//echo"<pre>";print_r($arrSaveData);die('PP');
+        $Update = $productModel->where('id',$product_id)->set($arrSaveData)->update();         
+
+        if($Update) {
+            
+            $this->session->setFlashdata('message', 'Product updated succesfully.');           
+            return redirect()->to(site_url('EditProduct?id='.$product_id));
+        }
+ else {
+            
+            $this->session->setFlashdata('errmessage', 'Something Went Wrong! Try Again.');            
+            return redirect()->to(site_url('EditProduct?id='.$product_id));
+        }
+    }
+
+
+//////////// delete product /////////////
+
+
+    public function delete_product()
+    {
+        $session = session();
+
+        $isAdminLoggedIn = $session->get('isAdminLoggedIn');
+
+        $id =  $this->request->getGet("id");
+
+        $productModel = new ProductModel();
+
+        if($isAdminLoggedIn)
+        {
+            $productModel->where('id',$id)->delete();
+                
+            $this->session->setFlashdata('message', 'Product deleted succesfully.');
+        } else {
+            $this->session->setFlashdata('errmessage', 'Invalid access.');
+        }
+        return redirect()->to(site_url('Products'));
+    }
+  
+
+///////// product detail //////////////////////
+
+    public function productdetails()
+    {
+        $session = session();
+
+        $isAdminLoggedIn = $session->get('isAdminLoggedIn');
+
+        if(!$isAdminLoggedIn)
+        {  
+           return redirect()->to(site_url('admin'));
+        }
+
+        $id = $this->request->getGet("id");
+
+        $productModel = new ProductModel();
+
+        $data['product'] = $productModel->getProductID($id); 
+
+        // print_r($data['product']);die();
+
+        if(!$data['product'])
+        {
+            $this->session->setFlashdata('errmessage', 'Product Id Does not exist!');
+            return redirect()->to(site_url('Products'));
+        }
+
+        $this->template->render('admintemplate', 'contents' , 'admin/productdetails', $data);
+    }
+
+
+
+}
+
+?>

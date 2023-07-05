@@ -1,0 +1,143 @@
+CRITICAL - 2022-11-08 11:57:11 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-08 11:58:17 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-08 12:02:55 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-08 16:26:51 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-08 16:32:49 --> Call to undefined method App\Models\OnlineShoppingModel::getDataTransaction
+#0 /var/www/html/app/Controllers/TransactionController.php(94): CodeIgniter\Model->__call('getDataTransact...', Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-08 16:39:43 --> Class 'App\Models\OnlineShoppingModel' not found
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-08 16:47:08 --> Use of undefined constant ∞ - assumed '∞' (this will throw an Error in a future version of PHP)
+#0 /var/www/html/app/Controllers/TransactionController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/var/www/html/a...', 93, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-08 16:47:59 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/TransactionController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 95, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-08 16:48:01 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/TransactionController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 95, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-08 16:48:28 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/TransactionController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 95, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-08 16:48:34 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/TransactionController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 95, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-08 16:49:21 --> Division by zero
+#0 /var/www/html/app/Libraries/Paginationnew.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', '/var/www/html/a...', 35, Array)
+#1 /var/www/html/app/Controllers/TransactionController.php(98): App\Libraries\Paginationnew->getPaginate('2', 1, '0')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-08 17:03:40 --> A non-numeric value encountered
+#0 /var/www/html/app/Libraries/Paginationnew.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 25, Array)
+#1 /var/www/html/app/Controllers/TransactionController.php(98): App\Libraries\Paginationnew->getPaginate('2', 1, '')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-08 17:04:56 --> A non-numeric value encountered
+#0 /var/www/html/app/Libraries/Paginationnew.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 25, Array)
+#1 /var/www/html/app/Controllers/TransactionController.php(98): App\Libraries\Paginationnew->getPaginate('2', 1, '')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-08 17:05:00 --> Unsupported operand types
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-08 17:05:03 --> Unsupported operand types
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-08 17:06:06 --> Unsupported operand types
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-08 17:06:37 --> Unsupported operand types
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-08 17:06:40 --> Unsupported operand types
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-08 17:06:53 --> Unsupported operand types
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-08 17:31:00 --> Cannot use object of type stdClass as array
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#3 /var/www/html/app/Controllers/TransactionController.php(116): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-08 17:32:53 --> Cannot use object of type stdClass as array
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#3 /var/www/html/app/Controllers/TransactionController.php(116): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-08 23:34:59 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

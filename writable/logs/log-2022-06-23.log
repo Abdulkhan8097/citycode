@@ -1,0 +1,391 @@
+CRITICAL - 2022-06-23 00:26:51 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 00:27:57 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 00:47:00 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 00:55:45 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 01:15:17 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 02:50:17 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 05:11:05 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 11:05:47 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 11:06:36 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 14:34:23 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 14:34:26 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 14:54:31 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 15:06:31 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 15:07:00 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 15:08:33 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 15:43:14 --> Cannot use object of type stdClass as array
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/topmenu', Array, true)
+#2 /var/www/html/app/Views/admin/header.php(55): view('admin/topmenu')
+#3 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#4 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/header', Array, true)
+#5 /var/www/html/app/Views/admintemplate.php(1): view('admin/header')
+#6 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#7 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admintemplate', Array, true)
+#8 /var/www/html/app/Libraries/Template.php(17): view('admintemplate', Array)
+#9 /var/www/html/app/Controllers/OpeningPoint.php(34): App\Libraries\Template->render('admintemplate', 'contents', 'admin/openingpo...', Array)
+#10 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OpeningPoint->index()
+#11 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OpeningPoint))
+#12 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-06-23 15:51:37 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:10:51 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:21:15 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:21:38 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:21:44 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:21:44 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:21:52 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:22:22 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:22:46 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:00 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:41 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:42 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:51 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:52 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:53 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:54 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:56 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:56 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:57 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:57 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:58 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:58 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:58 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:58 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:58 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:59 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:59 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:23:59 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:03 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:08 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:08 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:11 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:12 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:12 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:13 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:13 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:14 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:14 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:15 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:15 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:15 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:15 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:16 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:16 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:16 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:16 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:17 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:17 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:17 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:17 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:17 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:17 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:18 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:18 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:18 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:18 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:18 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:19 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:19 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:19 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:19 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:21 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:21 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:25 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:30 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:33 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:38 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:38 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:41 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:44 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:46 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:49 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:54 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:24:54 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:25:24 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:25:32 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:25:55 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:26:14 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:26:19 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:26:19 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:26:20 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:26:24 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:26:25 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:26:30 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:26:30 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:26:30 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:27:04 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:27:09 --> Cannot use App\Models\CustomerImpressionModel as CustomerImpressionModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:27:31 --> Cannot use App\Libraries\OpeningPointModel as OpeningPointModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:27:32 --> Cannot use App\Libraries\OpeningPointModel as OpeningPointModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:27:58 --> Cannot use App\Libraries\OpeningPointModel as OpeningPointModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:28:08 --> Class 'App\Controllers\EmailSms' not found
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->getotp()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-23 16:28:14 --> Class 'App\Controllers\EmailSms' not found
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->getotp()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-23 16:28:37 --> Class 'App\Controllers\EmailSms' not found
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->getotp()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-23 16:29:26 --> Class 'App\Controllers\EmailSms' not found
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->getotp()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-23 16:51:38 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:52:48 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 16:56:33 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 17:58:23 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 17:58:52 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 17:58:54 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 17:58:55 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 19:05:00 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 19:53:39 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 19:54:47 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-23 22:27:17 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

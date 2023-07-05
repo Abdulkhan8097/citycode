@@ -1,0 +1,63 @@
+CRITICAL - 2022-12-09 13:33:29 --> Call to a member function getProductId() on null
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->edit_product()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-09 13:39:56 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/products/...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/products/...', Array)
+#2 /var/www/html/app/Controllers/ProductController.php(370): App\Libraries\Template->render('admintemplate', 'contents', 'admin/products/...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->edit_product()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-09 13:39:58 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/products/...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/products/...', Array)
+#2 /var/www/html/app/Controllers/ProductController.php(370): App\Libraries\Template->render('admintemplate', 'contents', 'admin/products/...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->edit_product()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-09 13:41:10 --> Cannot use object of type stdClass as array
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/products/...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/products/...', Array)
+#3 /var/www/html/app/Controllers/ProductController.php(370): App\Libraries\Template->render('admintemplate', 'contents', 'admin/products/...', Array)
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->edit_product()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-09 13:41:11 --> Cannot use object of type stdClass as array
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/products/...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/products/...', Array)
+#3 /var/www/html/app/Controllers/ProductController.php(370): App\Libraries\Template->render('admintemplate', 'contents', 'admin/products/...', Array)
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->edit_product()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-09 13:41:15 --> Cannot use object of type stdClass as array
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/products/...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/products/...', Array)
+#3 /var/www/html/app/Controllers/ProductController.php(370): App\Libraries\Template->render('admintemplate', 'contents', 'admin/products/...', Array)
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->edit_product()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-09 16:14:03 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-09 17:51:44 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-09 20:42:24 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

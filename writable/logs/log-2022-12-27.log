@@ -1,0 +1,206 @@
+CRITICAL - 2022-12-27 12:15:55 --> Class 'App\Controllers\str' not found
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\RedeemController->checkout()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RedeemController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-27 12:26:16 --> Call to undefined method App\Controllers\RedeemController::respondCreated()
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\RedeemController->checkout()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RedeemController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-27 12:26:18 --> Call to undefined method App\Controllers\RedeemController::respondCreated()
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\RedeemController->checkout()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RedeemController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-27 12:26:19 --> Call to undefined method App\Controllers\RedeemController::respondCreated()
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\RedeemController->checkout()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RedeemController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-27 12:26:24 --> Call to undefined method App\Controllers\RedeemController::respondCreated()
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\RedeemController->checkout()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RedeemController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-27 12:26:43 --> Call to undefined method App\Controllers\RedeemController::respondCreated()
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\RedeemController->checkout()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RedeemController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-27 12:27:38 --> Call to undefined method App\Controllers\RedeemController::respondCreated()
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\RedeemController->checkout()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RedeemController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-27 12:27:40 --> Call to undefined method App\Controllers\RedeemController::respondCreated()
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\RedeemController->checkout()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RedeemController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-27 12:27:42 --> Call to undefined method App\Controllers\RedeemController::respondCreated()
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\RedeemController->checkout()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RedeemController))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-27 15:59:26 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Coupon/ad...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Coupon/ad...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(109): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Coupon/ad...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCoupon()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-27 16:01:45 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/Coupon/add.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 134, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Coupon/ad...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/Coupon/ad...', Array)
+#4 /var/www/html/app/Controllers/Coupon.php(119): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Coupon/ad...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCoupon()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 16:02:10 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/Coupon/add.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 134, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Coupon/ad...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/Coupon/ad...', Array)
+#4 /var/www/html/app/Controllers/Coupon.php(119): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Coupon/ad...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCoupon()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 16:02:54 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/Coupon/add.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 134, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Coupon/ad...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/Coupon/ad...', Array)
+#4 /var/www/html/app/Controllers/Coupon.php(119): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Coupon/ad...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCoupon()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 16:02:57 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/Coupon/add.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 134, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Coupon/ad...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/Coupon/ad...', Array)
+#4 /var/www/html/app/Controllers/Coupon.php(119): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Coupon/ad...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCoupon()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 16:02:59 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/Coupon/add.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 134, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Coupon/ad...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/Coupon/ad...', Array)
+#4 /var/www/html/app/Controllers/Coupon.php(119): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Coupon/ad...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCoupon()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 16:04:33 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/Coupon/add.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 134, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Coupon/ad...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/Coupon/ad...', Array)
+#4 /var/www/html/app/Controllers/Coupon.php(119): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Coupon/ad...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCoupon()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 17:34:59 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/Coupon.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 163, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->save()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-27 18:20:00 --> syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-27 18:20:24 --> syntax error, unexpected '$cupdate' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-27 18:20:48 --> syntax error, unexpected '$menudata' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-27 18:20:50 --> syntax error, unexpected '$menudata' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-27 19:20:55 --> Class 'App\Models\CouponModel' not found
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->couponList()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-27 20:37:20 --> Object of class stdClass could not be converted to string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-27 20:37:21 --> Object of class stdClass could not be converted to string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-27 20:37:22 --> Object of class stdClass could not be converted to string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-27 20:37:22 --> Object of class stdClass could not be converted to string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-27 20:37:23 --> Object of class stdClass could not be converted to string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-27 20:37:24 --> Object of class stdClass could not be converted to string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-27 23:34:36 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-27 23:35:37 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

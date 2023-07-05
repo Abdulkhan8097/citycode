@@ -1,0 +1,133 @@
+CRITICAL - 2022-09-15 04:49:20 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiAdvertise.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 169, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiAdvertise->bannerCount()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAdvertise))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 12:05:35 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiAdvertise.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 169, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiAdvertise->bannerCount()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAdvertise))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 12:29:21 --> Call to undefined method App\Models\CompanyDocFile::getDatalist
+#0 /var/www/html/app/Controllers/AboutCompany.php(138): CodeIgniter\Model->__call('getDatalist', Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\AboutCompany->banner_list()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutCompany))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-15 12:36:47 --> Cannot use object of type stdClass as array
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/bannerlis...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/bannerlis...', Array)
+#3 /var/www/html/app/Controllers/AboutCompany.php(163): App\Libraries\Template->render('admintemplate', 'contents', 'admin/bannerlis...', Array)
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\AboutCompany->banner_list()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutCompany))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-15 12:36:50 --> Cannot use object of type stdClass as array
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/bannerlis...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/bannerlis...', Array)
+#3 /var/www/html/app/Controllers/AboutCompany.php(163): App\Libraries\Template->render('admintemplate', 'contents', 'admin/bannerlis...', Array)
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\AboutCompany->banner_list()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutCompany))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-15 12:38:20 --> Cannot use object of type stdClass as array
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/bannerlis...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/bannerlis...', Array)
+#3 /var/www/html/app/Controllers/AboutCompany.php(163): App\Libraries\Template->render('admintemplate', 'contents', 'admin/bannerlis...', Array)
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\AboutCompany->banner_list()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutCompany))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-15 12:38:22 --> Cannot use object of type stdClass as array
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/bannerlis...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/bannerlis...', Array)
+#3 /var/www/html/app/Controllers/AboutCompany.php(163): App\Libraries\Template->render('admintemplate', 'contents', 'admin/bannerlis...', Array)
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\AboutCompany->banner_list()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutCompany))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-15 12:38:25 --> Cannot use object of type stdClass as array
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/bannerlis...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/bannerlis...', Array)
+#3 /var/www/html/app/Controllers/AboutCompany.php(163): App\Libraries\Template->render('admintemplate', 'contents', 'admin/bannerlis...', Array)
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\AboutCompany->banner_list()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutCompany))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-15 13:04:55 --> syntax error, unexpected ';', expecting ',' or ')'
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/AboutCompany.php(118): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\AboutCompany->banner_list()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutCompany))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-15 13:04:57 --> syntax error, unexpected ';', expecting ',' or ')'
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comp...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comp...')
+#3 /var/www/html/app/Controllers/AboutCompany.php(118): spl_autoload_call('App\\Models\\Comp...')
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\AboutCompany->banner_list()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutCompany))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-15 13:08:44 --> Class 'App\Models\CompanyDocFile' not found
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\AboutCompany->banner_list()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutCompany))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-15 13:11:13 --> Use of undefined constant NT - assumed 'NT' (this will throw an Error in a future version of PHP)
+#0 /var/www/html/app/Models/CompanyDocFile.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/var/www/html/a...', 166, Array)
+#1 /var/www/html/app/Controllers/AboutCompany.php(138): App\Models\CompanyDocFile->getDatalist(Array, '', '', '1')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\AboutCompany->banner_list()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutCompany))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 13:11:15 --> Use of undefined constant NT - assumed 'NT' (this will throw an Error in a future version of PHP)
+#0 /var/www/html/app/Models/CompanyDocFile.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/var/www/html/a...', 166, Array)
+#1 /var/www/html/app/Controllers/AboutCompany.php(138): App\Models\CompanyDocFile->getDatalist(Array, '', '', '1')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\AboutCompany->banner_list()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutCompany))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 18:56:07 --> Invalid file: {0}
+#0 /var/www/html/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/change_pa...')
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/change_pa...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/change_pa...', Array)
+#3 /var/www/html/app/Controllers/Admin.php(316): App\Libraries\Template->render('admintemplate', 'contents', 'admin/change_pa...')
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->edit_password()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-15 20:44:17 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-15 21:44:19 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiAdvertise.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 169, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiAdvertise->bannerCount()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAdvertise))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

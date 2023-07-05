@@ -1,0 +1,68 @@
+CRITICAL - 2022-12-31 11:54:59 --> array_combine(): Both parameters should have an equal number of elements
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_combine()...', '/var/www/html/a...', 398, Array)
+#1 /var/www/html/app/Controllers/ApiCompany.php(398): array_combine(Array, Array)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiCompany->companyoffer()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCompany))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-31 11:55:29 --> array_combine(): Both parameters should have an equal number of elements
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_combine()...', '/var/www/html/a...', 398, Array)
+#1 /var/www/html/app/Controllers/ApiCompany.php(398): array_combine(Array, Array)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiCompany->companyoffer()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCompany))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-31 11:56:28 --> array_combine(): Both parameters should have an equal number of elements
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_combine()...', '/var/www/html/a...', 398, Array)
+#1 /var/www/html/app/Controllers/ApiCompany.php(398): array_combine(Array, Array)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiCompany->companyoffer()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCompany))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-31 11:56:34 --> array_combine(): Both parameters should have an equal number of elements
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_combine()...', '/var/www/html/a...', 398, Array)
+#1 /var/www/html/app/Controllers/ApiCompany.php(398): array_combine(Array, Array)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiCompany->companyoffer()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCompany))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-31 11:56:35 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-31 11:57:34 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-31 11:59:15 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-31 11:59:52 --> array_combine(): Both parameters should have an equal number of elements
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_combine()...', '/var/www/html/a...', 398, Array)
+#1 /var/www/html/app/Controllers/ApiCompany.php(398): array_combine(Array, Array)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiCompany->companyoffer()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCompany))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-31 12:00:31 --> array_merge(): Argument #1 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 398, Array)
+#1 /var/www/html/app/Controllers/ApiCompany.php(398): array_merge(NULL, Array)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiCompany->companyoffer()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCompany))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-31 12:00:35 --> array_merge(): Argument #1 is not an array
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', '/var/www/html/a...', 398, Array)
+#1 /var/www/html/app/Controllers/ApiCompany.php(398): array_merge(NULL, Array)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiCompany->companyoffer()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiCompany))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-31 12:17:14 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

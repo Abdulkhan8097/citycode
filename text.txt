@@ -1,0 +1,22 @@
+1.citycode
+http://185.188.127.11/public/index.php/apigetotp?mobileno=11118888&customer=company
+http://cp.citycode.om/public/codelog.txt
+url:http://185.188.127.11/public/index.php/admin
+userId: genie@gmail.com
+password: City786@2022
+OTP:1234
+
+
+database:
+url:http://185.188.127.11/sdfadmin/index.php?route=/table/search&db=citycode&table=advertisement
+http://185.188.127.11/sdfadmin/index.php
+user:root
+pass:Admin@123#$maximum
+
+FTPlast
+Host:185.188.127.11
+Port:22
+user:root
+password:admin@(*&^%$#@!)
+
+

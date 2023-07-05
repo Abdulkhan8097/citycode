@@ -1,0 +1,275 @@
+CRITICAL - 2022-11-23 13:39:42 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Coupon/li...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Coupon/li...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(88): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Coupon/li...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->index()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 17:05:40 --> Illegal string offset 'bal_amount'
+#0 /var/www/html/app/Controllers/Coupon.php(365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/var/www/html/a...', 365, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->getBalance()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-23 17:07:01 --> Illegal string offset 'bal_amount'
+#0 /var/www/html/app/Controllers/Coupon.php(365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/var/www/html/a...', 365, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->getBalance()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-23 17:07:17 --> Illegal string offset 'bal_amount'
+#0 /var/www/html/app/Controllers/Coupon.php(365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/var/www/html/a...', 365, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->getBalance()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-23 17:10:16 --> Illegal string offset 'bal_amount'
+#0 /var/www/html/app/Controllers/Coupon.php(365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/var/www/html/a...', 365, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->getBalance()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-23 17:57:24 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 17:57:53 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 17:58:02 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 17:59:04 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:17:35 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:17:37 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:18:22 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:19:48 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:19:50 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:19:50 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:19:51 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:19:52 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:19:52 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:19:53 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:19:54 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:19:56 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:19:56 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:19:59 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:20:46 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/AssignCouponAmount/add.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 126, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#4 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-23 18:20:48 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/AssignCouponAmount/add.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 126, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#4 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-23 18:21:24 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:21:27 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:21:32 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:22:32 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:31:04 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-23 18:31:06 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/AssignCou...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/AssignCou...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(311): App\Libraries\Template->render('admintemplate', 'contents', 'admin/AssignCou...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCouponAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,254 @@
+CRITICAL - 2022-11-10 01:48:17 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-10 12:46:04 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-10 13:44:19 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-10 16:13:54 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(2513): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 2513, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->cartSave()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-10 16:22:46 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/Transaction/txn_amount.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 206, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#4 /var/www/html/app/Controllers/TransactionController.php(118): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-10 16:22:49 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/Transaction/txn_amount.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 206, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#4 /var/www/html/app/Controllers/TransactionController.php(118): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-10 16:22:53 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/Transaction/txn_amount.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 206, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#4 /var/www/html/app/Controllers/TransactionController.php(118): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-10 16:24:05 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/Transaction/txn_amount.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 206, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#4 /var/www/html/app/Controllers/TransactionController.php(116): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-10 16:24:07 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/Transaction/txn_amount.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 206, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#4 /var/www/html/app/Controllers/TransactionController.php(116): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-10 17:01:32 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-10 17:47:45 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(211): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 17:47:49 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(211): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 17:48:14 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(211): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 17:49:11 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(211): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 18:06:14 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(212): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 18:09:16 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(212): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 18:09:19 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(212): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 18:09:35 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(212): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 18:09:41 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(212): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 18:10:26 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(212): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 18:10:36 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(212): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 18:10:42 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(212): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 18:10:52 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(212): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 18:11:01 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(212): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 18:11:08 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(212): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 18:11:31 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(212): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 18:12:38 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(212): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 18:13:01 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(212): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 18:22:13 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(212): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-10 18:39:52 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#2 /var/www/html/app/Controllers/TransactionController.php(212): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->balanceAmount()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

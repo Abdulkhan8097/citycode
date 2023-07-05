@@ -1,0 +1,67 @@
+CRITICAL - 2022-12-07 09:39:10 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-07 09:40:41 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-07 12:28:48 --> syntax error, unexpected '=', expecting variable (T_VARIABLE) or '{' or '$'
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('TransactionCont...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('TransactionCont...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 12:32:33 --> Cannot use object of type stdClass as array
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#3 /var/www/html/app/Controllers/TransactionController.php(217): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->recorddetails()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-07 12:32:35 --> Cannot use object of type stdClass as array
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#3 /var/www/html/app/Controllers/TransactionController.php(217): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->recorddetails()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-07 12:34:48 --> Cannot use object of type stdClass as array
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#3 /var/www/html/app/Controllers/TransactionController.php(217): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->recorddetails()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-07 12:34:49 --> Cannot use object of type stdClass as array
+#0 /var/www/html/system/View/View.php(246): include()
+#1 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Transacti...', Array, true)
+#2 /var/www/html/app/Libraries/Template.php(15): view('admin/Transacti...', Array)
+#3 /var/www/html/app/Controllers/TransactionController.php(217): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Transacti...', Array)
+#4 /var/www/html/system/CodeIgniter.php(918): App\Controllers\TransactionController->recorddetails()
+#5 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-07 21:16:04 --> A non-numeric value encountered
+#0 /var/www/html/app/Views/admin/OnlineShopping/orderlist.php(283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 283, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/OnlineSho...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/OnlineSho...', Array)
+#4 /var/www/html/app/Controllers/OnlineShopping.php(116): App\Libraries\Template->render('admintemplate', 'contents', 'admin/OnlineSho...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->index()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-07 21:42:36 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

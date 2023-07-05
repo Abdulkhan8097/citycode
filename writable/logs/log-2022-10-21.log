@@ -1,0 +1,300 @@
+CRITICAL - 2022-10-21 01:31:50 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-21 01:33:06 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-21 04:22:41 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-21 14:04:13 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 14:04:15 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 14:04:58 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 14:05:00 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 14:05:00 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 14:05:03 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 14:05:04 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 14:13:58 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 14:14:00 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 15:03:36 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-21 15:09:30 --> Class 'App\Models\CodeModel' not found
+#0 /var/www/html/system/CodeIgniter.php(890): App\Controllers\ApiOffers->__construct()
+#1 /var/www/html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-21 15:11:23 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 15:11:25 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 15:11:51 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 15:11:53 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 15:15:38 --> syntax error, unexpected 'if' (T_IF)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 15:15:40 --> syntax error, unexpected 'if' (T_IF)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 15:16:02 --> syntax error, unexpected 'if' (T_IF)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 15:16:05 --> syntax error, unexpected 'if' (T_IF)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 15:16:48 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 15:16:50 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 /var/www/html/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('ApiCompany/comp...')
+#1 /var/www/html/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('ApiCompany/comp...')
+#2 /var/www/html/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 16:16:23 --> Call to a member function find() on null
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->customerdetailsonline()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-21 16:17:20 --> Call to a member function find() on null
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->customerdetailsonline()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-21 16:17:23 --> Call to a member function find() on null
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->customerdetailsonline()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-21 16:17:28 --> Call to a member function find() on null
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->customerdetailsonline()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-21 16:19:47 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(2371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 2371, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->productPrice()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 16:20:07 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(2371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 2371, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->productPrice()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 16:20:23 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(2371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 2371, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->productPrice()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 16:21:08 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(2371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 2371, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->productPrice()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 16:21:12 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(2371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 2371, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->productPrice()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 16:22:07 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(2371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 2371, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->productPrice()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 16:22:46 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(2371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 2371, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->productPrice()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 16:24:13 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(2371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 2371, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->productPrice()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 16:24:49 --> Call to a member function find() on null
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->customerdetailsonline()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-21 16:25:09 --> Call to a member function find() on null
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->customerdetailsonline()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-21 16:25:15 --> Call to a member function where() on null
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->customerdetailsonline()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-21 16:38:43 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/OnlineShopping/view.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 77, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/OnlineSho...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/OnlineSho...', Array)
+#4 /var/www/html/app/Controllers/OnlineShopping.php(93): App\Libraries\Template->render('admintemplate', 'contents', 'admin/OnlineSho...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->customerdetailsonline()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-21 16:39:29 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/OnlineShopping/view.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 144, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/OnlineSho...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/OnlineSho...', Array)
+#4 /var/www/html/app/Controllers/OnlineShopping.php(93): App\Libraries\Template->render('admintemplate', 'contents', 'admin/OnlineSho...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->customerdetailsonline()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-21 18:45:31 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-21 19:53:35 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-21 19:57:45 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-21 21:59:26 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(2371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 2371, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->productPrice()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 22:00:34 --> A non-numeric value encountered
+#0 /var/www/html/app/Controllers/ApiUsers.php(2371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/var/www/html/a...', 2371, Array)
+#1 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ApiUsers->productPrice()
+#2 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiUsers))
+#3 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-21 22:41:46 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-21 22:42:23 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

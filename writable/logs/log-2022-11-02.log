@@ -1,0 +1,76 @@
+CRITICAL - 2022-11-02 10:52:41 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-02 12:43:12 --> Class 'App\Models\OnlineShoppingModel' not found
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->index()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-02 13:27:57 --> syntax error, unexpected ';'
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/OnlineSho...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/OnlineSho...', Array)
+#2 /var/www/html/app/Controllers/OnlineShopping.php(106): App\Libraries\Template->render('admintemplate', 'contents', 'admin/OnlineSho...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->index()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-02 13:27:58 --> syntax error, unexpected ';'
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/OnlineSho...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/OnlineSho...', Array)
+#2 /var/www/html/app/Controllers/OnlineShopping.php(106): App\Libraries\Template->render('admintemplate', 'contents', 'admin/OnlineSho...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->index()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-02 15:33:54 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-02 19:42:13 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/OnlineSho...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/OnlineSho...', Array)
+#2 /var/www/html/app/Controllers/OnlineShopping.php(127): App\Libraries\Template->render('admintemplate', 'contents', 'admin/OnlineSho...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->customerdetailsonline()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-02 19:42:18 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/OnlineSho...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/OnlineSho...', Array)
+#2 /var/www/html/app/Controllers/OnlineShopping.php(127): App\Libraries\Template->render('admintemplate', 'contents', 'admin/OnlineSho...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->customerdetailsonline()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-02 19:42:59 --> Use of undefined constant BLANK_IMG - assumed 'BLANK_IMG' (this will throw an Error in a future version of PHP)
+#0 /var/www/html/app/Views/admin/OnlineShopping/view.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/var/www/html/a...', 48, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/OnlineSho...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/OnlineSho...', Array)
+#4 /var/www/html/app/Controllers/OnlineShopping.php(127): App\Libraries\Template->render('admintemplate', 'contents', 'admin/OnlineSho...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->customerdetailsonline()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-02 19:43:02 --> Use of undefined constant BLANK_IMG - assumed 'BLANK_IMG' (this will throw an Error in a future version of PHP)
+#0 /var/www/html/app/Views/admin/OnlineShopping/view.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/var/www/html/a...', 48, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/OnlineSho...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/OnlineSho...', Array)
+#4 /var/www/html/app/Controllers/OnlineShopping.php(127): App\Libraries\Template->render('admintemplate', 'contents', 'admin/OnlineSho...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->customerdetailsonline()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-02 20:04:46 --> Class 'App\Models\OnlineShoppingModel' not found
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->customerdetailsonline()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

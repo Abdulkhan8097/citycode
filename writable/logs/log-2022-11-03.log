@@ -1,0 +1,24 @@
+CRITICAL - 2022-11-03 12:01:03 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/OnlineSho...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/OnlineSho...', Array)
+#2 /var/www/html/app/Controllers/OnlineShopping.php(116): App\Libraries\Template->render('admintemplate', 'contents', 'admin/OnlineSho...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->index()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-03 12:01:04 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/OnlineSho...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/OnlineSho...', Array)
+#2 /var/www/html/app/Controllers/OnlineShopping.php(116): App\Libraries\Template->render('admintemplate', 'contents', 'admin/OnlineSho...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\OnlineShopping->index()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OnlineShopping))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-03 18:35:20 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-03 20:43:03 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

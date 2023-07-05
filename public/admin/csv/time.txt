@@ -1,0 +1,17 @@
+ALTER TABLE `customer` DROP `arb_interest`, DROP `arb_gender`, DROP `arb_nationality`, DROP `arb_governorate`, DROP `arb_state`;
+
+ALTER TABLE `company_code_details` DROP `location`, DROP `state`, DROP `village`;
+
+
+ALTER TABLE `company_details` CHANGE `location` `c_location` VARCHAR(200);
+
+
+
+ALTER TABLE `branch` 
+ADD COLUMN `state` int(11) NOT NULL, 
+ADD COLUMN `village` int(11) NOT NULL, 
+ADD COLUMN `location` varchar(255);
+
+
+
+CREATE TABLE `countries` ( `country_id` int(11) NOT NULL, `country_code` varchar(2) NOT NULL DEFAULT '', `country_enName` varchar(100) NOT NULL DEFAULT '', `country_arName` varchar(100) NOT NULL DEFAULT '', `country_enNationality` varchar(100) NOT NULL DEFAULT '', `country_arNationality` varchar(100) NOT NULL DEFAULT '' ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4

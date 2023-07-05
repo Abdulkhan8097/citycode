@@ -1,0 +1,214 @@
+CRITICAL - 2022-11-16 08:39:30 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-16 08:40:38 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-16 08:40:40 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-16 08:40:42 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-16 11:42:02 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-16 18:57:47 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/leftpanel', Array, true)
+#1 /var/www/html/app/Views/admin/header.php(60): view('admin/leftpanel')
+#2 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#3 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/header', Array, true)
+#4 /var/www/html/app/Views/admintemplate.php(1): view('admin/header')
+#5 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#6 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admintemplate', Array, true)
+#7 /var/www/html/app/Libraries/Template.php(17): view('admintemplate', Array)
+#8 /var/www/html/app/Controllers/Admin.php(286): App\Libraries\Template->render('admintemplate', 'contents', 'admin/dashboard', Array)
+#9 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#10 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-11-16 18:58:38 --> Argument 2 passed to view() must be of the type array, null given, called in /var/www/html/app/Libraries/Template.php on line 15
+#0 /var/www/html/app/Libraries/Template.php(15): view('admin/advertise...', NULL)
+#1 /var/www/html/app/Controllers/Coupon.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/advertise...', NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCoupon()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-16 19:13:02 --> syntax error, unexpected end of file, expecting ']'
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-16 19:13:05 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-16 19:13:36 --> syntax error, unexpected end of file, expecting ';'
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-16 19:13:37 --> syntax error, unexpected end of file
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-16 19:13:37 --> syntax error, unexpected end of file, expecting ')'
+#0 /var/www/html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/a...')
+#1 /var/www/html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-16 19:15:42 --> Argument 2 passed to view() must be of the type array, null given, called in /var/www/html/app/Libraries/Template.php on line 15
+#0 /var/www/html/app/Libraries/Template.php(15): view('admin/advertise...', NULL)
+#1 /var/www/html/app/Controllers/Coupon.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/advertise...', NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCoupon()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-16 19:21:03 --> Argument 2 passed to view() must be of the type array, null given, called in /var/www/html/app/Libraries/Template.php on line 15
+#0 /var/www/html/app/Libraries/Template.php(15): view('admin/Coupon/ad...', NULL)
+#1 /var/www/html/app/Controllers/Coupon.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Coupon/ad...', NULL)
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCoupon()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-16 19:21:43 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/Coupon/add.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 89, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Coupon/ad...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/Coupon/ad...', Array)
+#4 /var/www/html/app/Controllers/Coupon.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Coupon/ad...')
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCoupon()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-16 19:24:20 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/Coupon/add.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 89, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Coupon/ad...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/Coupon/ad...', Array)
+#4 /var/www/html/app/Controllers/Coupon.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Coupon/ad...')
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCoupon()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-16 19:24:23 --> Class 'App\Controllers\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCoupon()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-16 19:24:25 --> Class 'App\Controllers\CompanyModel' not found
+#0 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCoupon()
+#1 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#2 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-16 19:37:15 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Coupon/ad...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Coupon/ad...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(89): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Coupon/ad...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCoupon()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-16 19:37:16 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Coupon/ad...', Array, true)
+#1 /var/www/html/app/Libraries/Template.php(15): view('admin/Coupon/ad...', Array)
+#2 /var/www/html/app/Controllers/Coupon.php(89): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Coupon/ad...', Array)
+#3 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->addCoupon()
+#4 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#5 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-16 20:10:17 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', '/var/www/html/a...', 205, Array)
+#1 /var/www/html/app/Controllers/ProductController.php(205): implode(',', '95')
+#2 /var/www/html/system/CodeIgniter.php(918): App\Controllers\ProductController->add_new_product()
+#3 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#4 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-16 20:15:22 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/Coupon/list.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 111, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Coupon/li...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/Coupon/li...', Array)
+#4 /var/www/html/app/Controllers/Coupon.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Coupon/li...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->index()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-16 20:17:21 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/Coupon/list.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 111, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Coupon/li...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/Coupon/li...', Array)
+#4 /var/www/html/app/Controllers/Coupon.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Coupon/li...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->index()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-16 20:17:32 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/Coupon/list.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 111, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Coupon/li...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/Coupon/li...', Array)
+#4 /var/www/html/app/Controllers/Coupon.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Coupon/li...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->index()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-16 20:19:08 --> Invalid argument supplied for foreach()
+#0 /var/www/html/app/Views/admin/Coupon/list.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/a...', 111, Array)
+#1 /var/www/html/system/View/View.php(246): include('/var/www/html/a...')
+#2 /var/www/html/system/Common.php(1119): CodeIgniter\View\View->render('admin/Coupon/li...', Array, true)
+#3 /var/www/html/app/Libraries/Template.php(15): view('admin/Coupon/li...', Array)
+#4 /var/www/html/app/Controllers/Coupon.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Coupon/li...', Array)
+#5 /var/www/html/system/CodeIgniter.php(918): App\Controllers\Coupon->index()
+#6 /var/www/html/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coupon))
+#7 /var/www/html/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-16 22:27:26 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-16 23:51:28 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
